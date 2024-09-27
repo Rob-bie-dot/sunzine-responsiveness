@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    text-decoration: none;
+
+
+}
+
+.flex-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.flex-nav a {
+    text-decoration: none;
+}
+
+.website-logo {
+    font-family: 'Courier New', Courier, monospace;
+    color: navy;
+    font-weight: 900;
+    font-size: 20px;
+
+
+
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+    padding-left: 300px;
+    font-size: 20px;
+    color: navy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 40px;
+
+}
+
+.list-items {
+    list-style-type: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+
+
+}
+
+.login {
+    position: absolute;
+    right: 50px;
+
+
+}
+
+.login button {
+    width: 90px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+.welcome {
+    text-align: center;
+    color: navy;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.search-bar {
+    text-align: center;
+
+}
+
+
+.search-bar input {
+    padding: 20px;
+    font-size: 20px;
+    width: 40%;
+    border-radius: 50px;
+    margin-top: 100px;
+
+
+
+}
+
+.search-bar button {
+    transform: translateX(-150%);
+    padding: 10px;
+    border-radius: 50%;
+    background-color: gold;
+    text-shadow: none;
+
+
+}
+
+
+header {
+    background-image: url(../assets/headimg4.jpg);
+    background-size: cover;
+    height: 70vh;
+    /* background-position: center; */
+
+}
+
+
+
+#album {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    
+    margin: 50px;
+}
+
+
+.album-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+/* @media (max-width: 768px) {
+    #album {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+} */
